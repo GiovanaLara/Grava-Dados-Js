@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/exe1.css">
+</head>
+<body>
+    <form id="form1" name="form1" method="post" action="">
+        <p>RGM:
+            <input name="rgm" type="text" id="rgm" size="10" />
+        </p>
+        <p>Nome:
+            <input name="nome" type="text" id="nome" size="60" />
+        </p>
+        <p>Média:
+            <input name="media" type="text" id="media" size="40" />
+        <p>
+            <input type="button" name="button" id="button1" value="Gravar" />
+            <input type="button" name="button2" id="button2" value="Exibir" />
+        </p>
+    </form>
+    <div id="lista"></div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/exercicio1.js"></script>
+</body>
+</html>
+
+<!--Faça um script para gravar vários alunos utilizando o WebStorage Local, sempre que o usuário clicar em
+Cadastrar, grave os dados no WebStorage, em seguida limpe os campos do formulário. Ao clicar no botão
+EXIBIR, mostre os dados gravados no WebStorage dentro de uma div (logo abaixo do formulário) e em uma
+tabela formatada usando CSS, além de mostrar os dados gravados, exiba também uma coluna com o conceito
+final (Aprovado, Reprovado e Exame), sendo que a coluna do conceito final deverá possuir o fundo formatado
+em uma cor conforme conceito (Aprovado com cor #1e90ff, Reprovado com cor #b22222 e Exame com cor
+#ff8c00), (é obrigatório o uso de jQuery)-->
+
